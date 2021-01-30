@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build IncidentReport_P013967",
+      "type": "shell",
+      "command": "if [ ! -f ${workspaceFolder}/incidentreport-p013967-approuter/node_modules/@sap/html5-repo-mock/index.js ] || [ ! -f ${workspaceFolder}/incidentreport-p013967-approuter/node_modules/@sap/approuter/approuter.js ]; then npm i @sap/approuter && npm i @sap/html5-repo-mock; fi",
+      "options": {
+        "cwd": "${workspaceFolder}/incidentreport-p013967-approuter"
+      }
+    }
+  ]
+}

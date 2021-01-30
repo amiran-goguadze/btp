@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run IncidentReport_P013967-IncidentReportP013967",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/incidentreport-p013967-approuter/node_modules/@sap/html5-repo-mock/index.js",
+      "args": [
+        "--standalone",
+        "/nsIncidentReportP013967/index.html",
+        "--ui5",
+        "{\"version\":\".\"}"
+      ],
+      "cwd": "${workspaceFolder}/IncidentReportP013967",
+      "env": {
+        "PORT": "6004",
+        "MOCK_LOOKUP_DIRS": "[\"webapp\"]",
+        "run.config": "{\"handlerId\":\"ui5_run_config_handler_id\",\"runnableId\":\"/home/user/projects/IncidentReport_P013967/IncidentReportP013967\"}"
+      },
+      "envFile": "${workspaceFolder}/IncidentReportP013967/.env1",
+      "preLaunchTask": "Build IncidentReport_P013967"
+    }
+  ]
+}
